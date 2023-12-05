@@ -16,8 +16,8 @@ const Footer = () => {
                 </div>
                 <Image
                     src="/images/logo.png"
-                    width={50}
-                    height={50}
+                    width={80}
+                    height={80}
                     alt="logo"
                     loading="lazy"
                     style={{boxShadow: `rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px`,borderRadius:5, background:'white'}}
@@ -141,7 +141,7 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <p>
                 &copy; {currentYear} All rights reserverd by
-                <Link href="/">CJ - CJ Sports Agency</Link>
+                <Link href="/"> CJ Sports Agency</Link>
               </p>
             </div>
           </div>

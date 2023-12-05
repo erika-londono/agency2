@@ -18,13 +18,11 @@ const CoustomErorPage = () => {
             >
               <img src="/images/404.png" alt="Image" />
 
-              <h3>Página No Encontrada 🔍</h3>
-              <h4>
-                La página que esta buscando no está disponible.
-              </h4>
+              <h3>Page Not Found 🔍</h3>
+              <h4>The page you are looking for is not available.</h4>
 
               <Link href="/">
-                <a className="default-btn-one">Regresar al Inicio</a>
+                <a className="default-btn-one">Back to Home</a>
               </Link>
             </div>
           </div>

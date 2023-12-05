@@ -24,17 +24,16 @@ const JuanCaicedo = () => {
               height={500}
             />
             <div className="playerDetails">
-              <div className="container">
                 <h1>Juan David Caicedo</h1>
                 <p>Striker – Winger – Attacking Midfielder</p>
                 <p>
-                  +46 769537175
+                  +46 769537175<br/>
                   <a href="mailto:caicuamax@gmail.com">caicuamax@gmail.com</a>
                 </p>
                 <p>Borlänge, Sweden</p>
 
-                <h2>Previous Clubs</h2>
                 <div className="previousClubs">
+                <h2>Previous Clubs</h2>
                   <div className="club">
                     <p>Kvarnsvedens IK Herr A</p>
                     <p>2023 Borlänge, Sweden</p>
@@ -117,10 +116,10 @@ const JuanCaicedo = () => {
                     Champions Cup Colombina Guadalupe, Santander, June 2019
                   </p>
                 </div>
-              </div>
             </div>
 
-            <div className="project-details-info">
+            <div className="project-details-info" style={{justifyContent: "right"}}>
+
               <div className="single-info-box flex-center">
                 Contact us
                 <Link href={whastApp}>

@@ -46,6 +46,10 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -374,10 +378,7 @@ Navbar Area CSS
 =================================================*/
 .main-nav {
   background-color: transparent;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 0;
-  padding-left: 0;
+  padding: 10px 0;
 }
 .main-nav .navbar {
   padding-right: 0;
@@ -5541,49 +5542,51 @@ table th {
 }
 
 .playerDetails {
-  background-color: #f4f4f4;
-}
-
-.playerDetails .container {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.playerDetails .container h1 {
+.playerDetails h1 {
   padding-top: 2rem;
   color: #333;
 }
 
-.playerDetails .container h2 {
+.playerDetails h2 {
   color: #555;
 }
 
-.playerDetails .container .club p:first-child {
+.playerDetails>p{
+  margin-bottom: 10px;
+}
+.playerDetails .club p:first-child {
   font-weight: 800;
   color:#0090f0;
 }
+.playerDetails .club p {
+  margin-bottom: 5px;
+}
 
-.playerDetails .container a {
+.playerDetails a {
   color: #007bff;
   text-decoration: none;
 }
 
-.playerDetails .container ul {
+.playerDetails ul {
   list-style-type: none;
   padding: 0;
 }
 
-.playerDetails .container .video-link {
+.playerDetails .video-link {
   display: block;
   margin-top: 10px;
 }
 
-.playerDetails .container .club {
-  margin: 20px 0 5px 0;
+.playerDetails .club {
+  margin: 10px 0 15px 0;
   color: red;
 }
 
-.playerDetails .container .achievements {
+.playerDetails .achievements {
   margin-top: 20px;
   margin-bottom: 10px;
 }
