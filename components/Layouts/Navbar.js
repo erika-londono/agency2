@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import Link from "../../utils/ActiveLink";
 
 const Navbar = () => {
@@ -6,16 +6,22 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setMenu(!menu);
   };
-  React.useEffect(() => {
+  useEffect(() => {
     let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
         elementId.classList.add("is-sticky");
       } else {
         elementId.classList.remove("is-sticky");
+        elementId.classList.add("positionRelative");
       }
     });
   });
+  useEffect(()=>{
+    let elementId = document.getElementById("navbar");
+    elementId.classList.add("positionRelative");
+
+  },[])
 
   const classOne = menu
     ? "collapse navbar-collapse mean-menu "
@@ -33,7 +39,7 @@ const Navbar = () => {
               <Link href="/">
                 <a className="navbar-brand">
                   <img
-                    src="/images/logo.png"
+                    src="/images/logo.jpeg"
                     className="white-logo"
                     alt="logo"
                     loading="lazy"

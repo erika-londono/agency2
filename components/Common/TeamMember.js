@@ -1,6 +1,31 @@
 import React from "react";
+import Link from "next/link";
 
 const TeamMember = () => {
+  const players = [
+    {
+      name: "Juan Caicedo",
+      picture: "/images/ourplayers/1.jpeg",
+      insta: "",
+      facebook: "",
+      path:"players/juancaicedo"
+    },
+    {
+      name: "Thomás",
+      picture: "/images/ourplayers/2.jpeg",
+      insta: "",
+      facebook: "",
+      path:"players/juancaicedo"
+
+    },
+    {
+      name: "André",
+      picture: "/images/ourplayers/3.jpeg",
+      insta: "",
+      facebook: "",
+      path:"players/juancaicedo"
+    },
+  ];
   return (
     <>
       <div className="team-section pt-100 pb-70">
@@ -11,10 +36,18 @@ const TeamMember = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
+            {players.map((player)=>{
+              return(
+              <Link href={player.path ? player.path : "/"}>
+
+              <div className="col-lg-4 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/ourplayers/1.jpeg" alt="team" />
+                  <img
+                    src={player.picture}
+                    style={{ maxHeight: 415, minHeight:415, width:"100%" }}
+                    alt={player.name}
+                  />
 
                   <div className="team-social">
                     <a href="https://www.facebook.com/" target="_blank">
@@ -27,55 +60,14 @@ const TeamMember = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3>Juan Caicedo</h3>
-                  <span>position player</span>
+                  <h3>{player.name}</h3>
+                  {/* <span>position player</span> */}
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team-item">
-                <div className="team-image">
-                  <img src="/images/ourplayers/2.jpeg" alt="team" />
-
-                  <div className="team-social">
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div className="team-content">
-                  <h3>Thomas</h3>
-                  <span>Position Player</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team-item">
-                <div className="team-image">
-                <img src="/images/ourplayers/3.jpeg" alt="team" />
-
-                  <div className="team-social">
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div className="team-content">
-                  <h3>Name</h3>
-                  <span>Position player</span>
-                </div>
-              </div>
-            </div>
+            
+            </Link>
+            )})}
           </div>
         </div>
       </div>

@@ -406,8 +406,8 @@ Navbar Area CSS
 }
 .main-nav .navbar .navbar-nav .nav-item a {
   font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 600;
+  color: #01082d;
   text-transform: capitalize;
   padding-left: 0;
   padding-right: 0;
@@ -1149,6 +1149,12 @@ Navbar Area CSS
   width: 100%;
   height: auto;
 }
+
+.navbar-area.positionRelative {
+  position: relative;
+  color: #000000;
+}
+
 .navbar-area.is-sticky {
   position: fixed;
   top: 0;
@@ -3736,11 +3742,11 @@ Projects Details Area CSS
 .projects-details-desc {
   margin-top: 5px;
 }
-.projects-details-desc h3, .projects-details-desc h4 {
+.projects-details-desc h3,
+.projects-details-desc h4 {
   margin-bottom: 13px;
   font-size: 30px;
-  margin-top:15px;
-
+  margin-top: 15px;
 }
 .projects-details-desc .features-text {
   margin-top: 15px;
@@ -5337,16 +5343,16 @@ table th {
   flex-wrap: wrap;
 }
 .agreements > h1 {
-  color: #02428B;
+  color: #02428b;
 }
 .agreementsDetail {
-flex-direction: column;
-max-width: 300px;
-min-width: 300px;
-height: 200px;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 300px;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .creditsDetail {
   flex-direction: column;
@@ -5355,29 +5361,29 @@ flex-wrap: wrap
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background:rgb(240 243 253);
+  background: rgb(240 243 253);
   border-radius: 15px;
-  box-shadow:0px 8px 12px 0px rgba(1.99474, 66.004, 138, 0.5);
-  transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 8px 12px 0px rgba(1.99474, 66.004, 138, 0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   height: 100%;
-  }
-.creditsDetail > img{
+}
+.creditsDetail > img {
   width: 200px;
   height: 120px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.creditsBody{
+.creditsBody {
   padding: 15px 20px 29px 20px;
-  text-align:center
+  text-align: center;
 }
-.creditsBody>h5{
-  color: #02428B;
-  padding: 10px 0
+.creditsBody > h5 {
+  color: #02428b;
+  padding: 10px 0;
 }
-.btnDetails:hover{
-  background-color: #02428B;
-  cursor:pointer;
+.btnDetails:hover {
+  background-color: #02428b;
+  cursor: pointer;
 }
 .flex-center {
   display: flex;
@@ -5532,4 +5538,52 @@ flex-wrap: wrap
   to {
     opacity: 1;
   }
+}
+
+.playerDetails {
+  background-color: #f4f4f4;
+}
+
+.playerDetails .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.playerDetails .container h1 {
+  padding-top: 2rem;
+  color: #333;
+}
+
+.playerDetails .container h2 {
+  color: #555;
+}
+
+.playerDetails .container .club p:first-child {
+  font-weight: 800;
+  color:#0090f0;
+}
+
+.playerDetails .container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.playerDetails .container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playerDetails .container .video-link {
+  display: block;
+  margin-top: 10px;
+}
+
+.playerDetails .container .club {
+  margin: 20px 0 5px 0;
+  color: red;
+}
+
+.playerDetails .container .achievements {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
