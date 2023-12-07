@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer className="footer-section ptb-100">
+      <footer className="footer-section ptb-100" style={{background:'black'}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -23,7 +23,7 @@ const Footer = () => {
                     style={{boxShadow: `rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px`,borderRadius:5, background:'white'}}
                   />
                 <p>
-                Soccer player agency
+                Football Players Agency
                 </p>
               </div>
             </div>
@@ -128,14 +128,14 @@ const Footer = () => {
           <div className="line"></div>
         </div>
 
-        <div className="partner-shape-img1">
+        {/* <div className="partner-shape-img1">
           <img src="/images/shape/partnar-shape-2.png" alt="image" />
-        </div>
+        </div> */}
       </footer>
       {/* End Top Footer Section */}
 
       {/* Bottom Footer Section */}
-      <div className="copyright-area">
+      <div className="copyright-area" style={{background:'black'}}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">

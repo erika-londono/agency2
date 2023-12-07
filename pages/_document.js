@@ -19,7 +19,7 @@ class MyDocument extends Document {
           />
           <meta name="description" content="CJ Sport Agency." />
           <meta name="keywords" content="CJ" />
-          <meta property="og:description" content="Soccer player agency" />
+          <meta property="og:description" content="Football Players Agency" />
           <meta
             property="og:image"
             content="http://cjsportsagency.com/images/logo.png"
