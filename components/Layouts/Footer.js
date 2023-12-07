@@ -104,10 +104,10 @@ const Footer = () => {
                   <h3>Email</h3>
                   <span>
                     <a
-                      href="mailto:pablo.caicedo@gmail.com?subject=Contact Us"
+                      href="mailto:pablocaicedo@gmail.com?subject=Contact Us"
                       target="_self"
                     >
-                      pablo.caicedo@gmail.com
+                      pablocaicedo@gmail.com
                     </a>
                   </span>
                 </div>
