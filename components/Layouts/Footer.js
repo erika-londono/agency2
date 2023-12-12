@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer className="footer-section ptb-100" style={{background:'black'}}>
+      <footer className="footer-section ptb-100" style={{ background: 'black' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -15,15 +15,15 @@ const Footer = () => {
                   <h3>CJ Sports Agency</h3>
                 </div>
                 <Image
-                    src="/images/logo.png"
-                    width={80}
-                    height={80}
-                    alt="logo"
-                    loading="lazy"
-                    style={{boxShadow: `rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px`,borderRadius:5, background:'white'}}
-                  />
+                  src="/images/logo.png"
+                  width={80}
+                  height={80}
+                  alt="logo"
+                  loading="lazy"
+                  style={{ boxShadow: `rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px`, borderRadius: 5, background: 'white' }}
+                />
                 <p>
-                Football Players Agency
+                  Football Players Agency
                 </p>
               </div>
             </div>
@@ -104,10 +104,10 @@ const Footer = () => {
                   <h3>Email</h3>
                   <span>
                     <a
-                      href="mailto:pablocaicedo@gmail.com?subject=Contact Us"
+                      href="mailto:pablocaicedo@cjsports.co?subject=Contact Us"
                       target="_self"
                     >
-                      pablocaicedo@gmail.com
+                      pablocaicedo@cjsports.co
                     </a>
                   </span>
                 </div>
@@ -135,7 +135,7 @@ const Footer = () => {
       {/* End Top Footer Section */}
 
       {/* Bottom Footer Section */}
-      <div className="copyright-area" style={{background:'black'}}>
+      <div className="copyright-area" style={{ background: 'black' }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
