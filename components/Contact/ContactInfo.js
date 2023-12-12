@@ -24,10 +24,10 @@ const ContactInfo = () => {
                   <h3>Email</h3>
                   <p><span>
                     <a
-                      href="mailto:pablocaicedo@gmail.com?subject=Contact Us"
+                      href="mailto:pablocaicedo@cjsports.co?subject=Contact Us"
                       target="_self"
                     >
-                      pablocaicedo@gmail.com
+                      pablocaicedo@cjsports.co
                     </a>
                   </span></p>
                 </div>
