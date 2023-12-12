@@ -1,5 +1,5 @@
 const baseUrl = process.env.NODE_ENV === "production"
-? 'https://ceter.com.co'
+? 'https://cjsports.co'
 : 'http://localhost:3000';
 
 
