@@ -5404,8 +5404,8 @@ table th {
 
 .slide-image {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 67vh;
+  object-fit: cover;
 }
 
 .slide-content {

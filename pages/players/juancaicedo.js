@@ -85,9 +85,9 @@ const JuanCaicedo = () => {
 
                 <h2>Information</h2>
                 <p>Date of Birth: June 27, 2004</p>
-                <p>Height: 1.72 m</p>
+                <p>Height: 1.71 m</p>
                 <p>Weight: 69 kg</p>
-                <p>Foot: Right</p>
+                <p>Foot: Both</p>
 
                 <h2>Languages</h2>
                 <p>English: C1</p>
