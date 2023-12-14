@@ -26,12 +26,6 @@ const JuanCaicedo = () => {
             <div className="playerDetails">
                 <h1>Juan David Caicedo</h1>
                 <p>Striker – Winger – Attacking Midfielder</p>
-                <p>
-                  +46 769537175<br/>
-                  <a href="mailto:caicuamax@gmail.com">caicuamax@gmail.com</a>
-                </p>
-                <p>Borlänge, Sweden</p>
-
                 <div className="previousClubs">
                 <h2>Previous Clubs</h2>
                   <div className="club">

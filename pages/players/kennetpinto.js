@@ -26,14 +26,6 @@ const KennetPinto = () => {
             <div className="playerDetails">
               <h1>Kennet Tomas Pinto</h1>
               <p>Center Forward - Winger</p>
-              <p>
-                +351 920 490 755 <br />
-                <a href="mailto:pintokennet0@gmail.com">
-                  pintokennet0@gmail.com
-                </a>
-              </p>
-              <p>Meadela – Viana Do Castelo, Portugal</p>
-
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
 
