@@ -24,7 +24,7 @@ const JuanCaicedo = () => {
               height={500}
             />
             <div className="playerDetails">
-                <h1>Juan David Caicedo</h1>
+                <h1>Juan David Caicedo Cuadros</h1>
                 <p>Striker – Winger – Attacking Midfielder</p>
                 <div className="previousClubs">
                 <h2>Previous Clubs</h2>
