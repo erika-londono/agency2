@@ -721,6 +721,9 @@
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slide-image {
+    height: 7vh;
+  }
   .work-item .work-content {
     max-width: 100%;
     margin-top: -6px;
@@ -740,6 +743,9 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slide-image {
+    height: 11vh;
+  }
   .section-title {
     margin-bottom: 40px;
   }
@@ -1241,6 +1247,9 @@
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slide-image {
+    height: 18vh;
+  }
   .navbar-light .navbar-brand {
     margin-left: 0;
     margin-right: 0;
@@ -1449,7 +1458,15 @@
     padding-right: 0;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .slide-image {
+    height: 53vh;
+  }
+}
 @media only screen and (min-width: 1400px) {
+  .slide-image {
+    height: 49vh;
+  }
   .main-banner-content {
     max-width: 635px;
     padding-right: 50px;
@@ -1462,6 +1479,9 @@
   }
 }
 @media only screen and (min-width: 1800px) {
+  .slide-image {
+    height: 60vh;
+  }
   .main-banner-area {
     height: 1000px;
   }

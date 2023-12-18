@@ -20,6 +20,15 @@ const TeamMember = () => {
   ];
 
   const router = useRouter();
+  const goToinsta =(event,val,path)=>{
+    event.stopPropagation()
+    if (val== "insta") return router.push(path)
+    return null
+  }
+  const goToPlayer =(val,path)=>{
+    if (val == 'player') return router.push(path)
+    return null
+  }
 
   return (
     <>
@@ -34,11 +43,11 @@ const TeamMember = () => {
           <div className="row justify-content-center">
             {players.map((player) => {
               return (
-                <Link key={player.name} href={player.path ? player.path : "/"}>
-                  <div
+                <div
+                  key={player.name}
                     className="col-lg-4 col-sm-6"
                     style={{ cursor: "pointer" }}
-                    onClick={() => router.push(player.path)}
+                    onClick={() =>goToPlayer('player',player.path) }
                   >
                     <div className="single-team-item">
                       <div key={player.name} className="team-image">
@@ -49,12 +58,14 @@ const TeamMember = () => {
                         />
 
                         <div className="team-social">
+                          <Link href={player.insta}>
                           <a>
                             <i
                               className="fab fa-instagram"
-                              onClick={() => router.push(player.insta)}
+                              onClick={(event) => goToinsta(event,'insta',player.insta)}
                             ></i>
                           </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="team-content">
@@ -62,42 +73,6 @@ const TeamMember = () => {
                       </div>
                     </div>
                   </div>
-                </Link>
-                // <Link  key={player.name} href={player.path ? player.path : "/"}>
-                //   <div
-                //     className="col-lg-4 col-sm-6 "
-                //     style={{ cursor: "pointer" }}
-                //   >
-                //     <div className="single-team-item">
-                //       <div key={player.name} className="team-image">
-                //         {/* <Image /> */}
-                //         <img
-                //           src={player.picture}
-                //           style={{
-                //             maxHeight: 415,
-                //             minHeight: 415,
-                //             width:311
-                //           }}
-                //           alt={player.name}
-                //         />
-
-                //         <div className="team-social">
-                //           {/* <a href="https://www.facebook.com/" target="_blank">
-                //             <i className="fab fa-facebook-f"></i>
-                //           </a> */}
-                //           <a href={player.insta} onClick={handleInstagramClick(player.insta)}>
-                //           {/* <a href={player.insta} target="_blank"> */}
-                //             <i className="fab fa-instagram"></i>
-                //           </a>
-                //         </div>
-                //       </div>
-                //       <div className="team-content">
-                //         <h3>{player.name}</h3>
-                //         {/* <span>position player</span> */}
-                //       </div>
-                //     </div>
-                //   </div>
-                // </Link>
               );
             })}
           </div>
