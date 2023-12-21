@@ -1248,7 +1248,7 @@
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide-image {
-    height: 20vh;
+    height: 25vh;
   }
   .navbar-light .navbar-brand {
     margin-left: 0;
@@ -1460,12 +1460,12 @@
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slide-image {
-    height: 53vh;
+    height: 67vh;
   }
 }
 @media only screen and (min-width: 1400px) {
   .slide-image {
-    height: 55vh;
+    height: 67vh;
   }
   .main-banner-content {
     max-width: 635px;
