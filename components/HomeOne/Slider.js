@@ -46,7 +46,7 @@ const Slider = () => {
       <div className="slide fades">
         <img
           className="slide-image"
-          src="/images/cover1.jpeg"
+          src="/images/cover.jpg"
           alt="Slide 1"
         />
       </div>
@@ -54,7 +54,7 @@ const Slider = () => {
       <div className="slide fades">
         <img
           className="slide-image"
-          src="/images/cover2.jpeg"
+          src="/images/cover2.jpg"
           alt="Slide 2"
         />
       </div>
