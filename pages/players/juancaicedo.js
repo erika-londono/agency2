@@ -30,7 +30,7 @@ const JuanCaicedo = () => {
                 <h2>Previous Clubs</h2>
                   <div className="club">
                     <p>Kvarnsvedens IK Herr A</p>
-                    <p>2023 Borlänge, Sweden</p>
+                    <p>2023/2024 Borlänge, Sweden</p>
                     <p>
                       • Div. 5 Herrar U - Dalarnas Fotbollförbund (2 goals in 3
                       games)
