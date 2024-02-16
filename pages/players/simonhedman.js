@@ -68,8 +68,8 @@ const KennetPinto = () => {
               </div>
 
               <h2>Languages</h2>
-                <p>Portuguese: C1</p>
-                <p>Spanish: Native</p>
+                <p>Swedish: Native</p>
+                <p>English: Native</p>
 
               <div className="achievements">
                 <h2>Achievements</h2>
