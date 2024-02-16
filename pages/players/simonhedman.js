@@ -17,70 +17,54 @@ const KennetPinto = () => {
         <div className="container">
           <div className="projects-details-desc">
             <video
-              src="/images/kennet.mp4"
+              src="/images/simonhedman.mp4"
               autoPlay={true}
               controls
               width={"100%"}
               height={500}
             />
             <div className="playerDetails">
-              <h1>Kennet Tomas Pinto</h1>
-              <p>Center Forward - Winger</p>
+              <h1>Simon Hedman</h1>
+              <p>Goal keeper</p>
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
 
                 <div className="club">
-                  <p>Camp. Distrital 2 Divi. Viana Do Castelo</p>
-                  <p>2023/2024 Viana do Castelo, Portugal</p>
-                  <p>(21 goals in 18 games)</p>
+                  <p>Season 2023: Kvarnsvedens IK Herr Division 2</p>
+                  <p>Borlange, Sweden</p>
+                  <p>21 games</p>
                 </div>
 
                 <div className="club">
-                  <p>Sport Club Vianense</p>
-                  <p>2022-2023 Viana do Castelo, Portugal</p>
-                  <p>A.F Viana Do Castelo – Camp. Distrital juniors A</p>
-                  <p>(20 goals in 15 games)</p>
+                  <p>Season 2022: Forssa BK Herr Division 3</p>
+                  <p>Borlange, Sweden</p>
+                  <p>22 games</p>
                 </div>
 
                 <div className="club">
-                  <p>Atletico Bucaramanga</p>
-                  <p>2021 Bucaramanga, Colombia</p>
-                  <p>La Marte Tournament</p>
+                  <p>Season 2021: Forssa BK Herr Division 3</p>
+                  <p>Borlange, Sweden</p>
+                  <p>20 games</p>
                 </div>
 
                 <div className="club">
-                  <p>Olympic</p>
-                  <p>2020 Floridablanca, Colombia</p>
-                  <p>Tournament Liga Santandereana</p>
-                  <p>Cup Colombina Guadalupe Santander</p>
-                  <p>Cup Colombina Cali Valle del Cauca - Liga Santander</p>
+                  <p>Season 2020: Forssa BK Herr Division 3</p>
+                  <p>Borlange, Sweden</p>
+                  <p>13 games</p>
                 </div>
 
                 <div className="club">
-                  <p>Juan Carlos Quintero FC</p>
-                  <p>2019-2020 Floridablanca, Colombia</p>
-                  <p>Tournament Liga Santandereana</p>
-                  <p>Cup Colombina Guadalupe Santander</p>
-                  <p>Cup Colombina Cali Valle del Cauca - Liga Santander</p>
+                  <p>Season 2019: Forssa BK Herr Division 3</p>
+                  <p>Borlange, Sweden</p>
+                  <p>5 games</p>
                 </div>
 
                 <div className="club">
-                  <p>Comfenalco Santander</p>
-                  <p>2018-2019 Bucaramanga, Colombia</p>
-                  <p>Tournament Liga Santandereana</p>
+                  <p>Season 2019: Forssa BK P19 Division 1</p>
+                  <p>Borlange, Sweden</p>
+                  <p>19 games</p>
                 </div>
 
-                <div className="club">
-                  <p>Boca Juniors Floridablanca</p>
-                  <p>2016-2017 Floridablanca, Colombia</p>
-                  <p>Tournament Liga Santandereana</p>
-                </div>
-
-                <div className="club">
-                  <p>Universitario De Deportes</p>
-                  <p>2014-2015 Lima, Peru</p>
-                  <p>Cream Cup Tournament</p>
-                </div>
               </div>
 
               <h2>Languages</h2>

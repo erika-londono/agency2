@@ -37,7 +37,7 @@ const TeamMember = () => {
           <div className="section-title">
             <h2> Our Players</h2>
             <h3></h3>
-            <span>Meet Our Leadership Preparing For Your Success</span>
+            <span></span>
           </div>
 
           <div className="row justify-content-center">
