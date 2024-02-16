@@ -17,6 +17,12 @@ const TeamMember = () => {
       insta: "https://instagram.com/ketomas7",
       path: "players/kennetpinto",
     },
+    {
+      name: "Simon Hedman",
+      picture: "/images/ourplayers/3.jpeg",
+      insta: "https://www.instagram.com/simonhedman_",
+      path: "players/simonhedman",
+    },    
   ];
 
   const router = useRouter();
