@@ -25,7 +25,10 @@ const KennetPinto = () => {
             />
             <div className="playerDetails">
               <h1>Simon Hedman</h1>
-              <p>Goal keeper</p>
+              <p>Position: Goal keeper</p>
+              <p>Age: 21 (Born 2002)</p>
+              <p>Foot: Right</p>
+              <p>Height: 188 cm</p>   
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
 
@@ -74,7 +77,7 @@ const KennetPinto = () => {
               <div className="achievements">
                 <h2>Achievements</h2>
 
-                <p>Scorer of all Colombia Difutbol Tournament A 2021</p>
+                <p>UEFA B License (Trainer)</p>
                 <p>Champions Tournament Liga Santandereana 2021</p>
                 <p>Champions Tournament Bogota City 2019</p>
                 <p>Champions Tournament La Marte 2019</p>
