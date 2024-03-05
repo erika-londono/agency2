@@ -75,15 +75,14 @@ const KennetPinto = () => {
                 <p>English: Native</p>
 
               <div className="achievements">
-                <h2>Achievements</h2>
+                <h2>Other Achievements</h2>
 
                 <p>UEFA B License (Trainer)</p>
-                <p>Champions Tournament Liga Santandereana 2021</p>
-                <p>Champions Tournament Bogota City 2019</p>
-                <p>Champions Tournament La Marte 2019</p>
-
-                <p>Champions Tournament La Marte 2018</p>
-                <p>Champions Cream Cup 2014</p>
+                <p>Goal keeper trainer</p>
+                <p>Main responsible for the Football Area at the Hagströmka Highschool</p>
+                <p>Sports Psicology, Malmö University</p>
+                <p>Sport complexity and challenges, Kristianstad Highschool</p>
+                <p>Human Fisiology, Skövde Highschool</p>
               </div>
             </div>
 
