@@ -6,12 +6,12 @@ import Link from "next/link";
 import whastAppAsociados from "../../utils/WhatsAppAsociados";
 import Image from "next/image";
 
-const KennetPinto = () => {
+const SimonHedman = () => {
   const whastApp = whastAppAsociados();
   return (
     <>
       <Navbar />
-      {/* <PageBanner pageTitle="Juan Caicedo" bgImage="/images/banner.webp" /> */}
+      {/* <PageBanner pageTitle="Simon Hedman" bgImage="/images/banner.webp" /> */}
 
       <div className="project-details-area pb-100">
         <div className="container">
@@ -70,7 +70,7 @@ const KennetPinto = () => {
 
               </div>
 
-              <div className="Languages"></div> 
+              <div className="Languages"> 
                 <h2>Languages</h2>
                 <p>Swedish: Native</p>
                 <p>English: Native</p>

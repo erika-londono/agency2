@@ -11,7 +11,7 @@ const KennetPinto = () => {
   return (
     <>
       <Navbar />
-      {/* <PageBanner pageTitle="Juan Caicedo" bgImage="/images/banner.webp" /> */}
+      {/* <PageBanner pageTitle="Kennet Pinto" bgImage="/images/banner.webp" /> */}
 
       <div className="project-details-area pb-100">
         <div className="container">
