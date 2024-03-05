@@ -73,10 +73,29 @@ const KennetPinto = () => {
               <h2>Languages</h2>
                 <p>Swedish: Native</p>
                 <p>English: Native</p>
+              
+              <div className="Strengths">
+                <h2>Physical</h2>
+                <p>Explosiv</p>
+                <p>Fast</p>
+                <p>Strong</p>
+                <p>Elasticity</p>
+                <p>Balance</p>
+
+                <h2>Technical</h2>
+                <p>Reflexes</p>
+                <p>Rescued both ways</p>
+                <p>Throwing</p>
+             
+                <h2>Game perception, Game understanding and mentally</h2>
+                <p>Read play ending</p>
+                <p>Control back line</p>
+                <p>Mature</p>
+                <p>Professional</p>         
+              </div>
 
               <div className="achievements">
                 <h2>Other Achievements</h2>
-
                 <p>UEFA B License (Trainer)</p>
                 <p>Goal keeper trainer</p>
                 <p>Main responsible for the Football Area at the Hagströmka Highschool</p>
