@@ -80,9 +80,9 @@ const KennetPinto = () => {
                 <p>UEFA B License (Trainer)</p>
                 <p>Goal keeper trainer</p>
                 <p>Main responsible for the Football Area at the Hagströmka Highschool</p>
-                <p>Sports Psicology, Malmö University</p>
+                <p>Sports Psychology, Malmö University</p>
                 <p>Sport complexity and challenges, Kristianstad Highschool</p>
-                <p>Human Fisiology, Skövde Highschool</p>
+                <p>Human Physiology, Skövde Highschool</p>
               </div>
             </div>
 
