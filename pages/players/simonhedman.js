@@ -73,8 +73,9 @@ const SimonHedman = () => {
               <div className="Languages"> 
                 <h2>Languages</h2>
                 <p>Swedish: Native</p>
-                <p>English: Native</p>
-                
+                <p></p>
+
+
               </div>
 
               <div className="Strengths">
