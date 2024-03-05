@@ -70,9 +70,12 @@ const KennetPinto = () => {
 
               </div>
 
-              <h2>Languages</h2>
+              <div className="Languages"></div> 
+                <h2>Languages</h2>
                 <p>Swedish: Native</p>
                 <p>English: Native</p>
+              </div>
+
               
               <div className="Strengths">
                 <h2>Physical</h2>
@@ -87,9 +90,9 @@ const KennetPinto = () => {
                 <p>Rescued both ways</p>
                 <p>Throwing</p>
              
-                <h2>Game perception, Game understanding and mentally</h2>
+                <h2>Game perception, game understanding and mentally</h2>
                 <p>Read play ending</p>
-                <p>Control back line</p>
+                <p>Back line control</p>
                 <p>Mature</p>
                 <p>Professional</p>         
               </div>
@@ -131,4 +134,4 @@ const KennetPinto = () => {
   );
 };
 
-export default KennetPinto;
+export default SimonHedman;
