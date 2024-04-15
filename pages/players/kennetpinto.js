@@ -30,9 +30,9 @@ const KennetPinto = () => {
                 <h2>Previous Clubs</h2>
 
                 <div className="club">
-                  <p>Camp. Distrital 2 Divi. Viana Do Castelo</p>
+                  <p>Vila Fria 1980 - Distrital 2 Division. </p>
                   <p>2023/2024 Viana do Castelo, Portugal</p>
-                  <p>(21 goals in 18 games)</p>
+                  <p>(29 goals in 28 games)</p>
                 </div>
 
                 <div className="club">
