@@ -7,7 +7,7 @@ const TeamMember = () => {
   const players = [
     {
       name: "Juan Caicedo",
-      picture: "/images/ourplayers/1.jpeg",
+      picture: "/images/ourplayers/1a.png",
       insta: "https://instagram.com/juancaiced0",
       path: "players/juancaicedo",
     },
