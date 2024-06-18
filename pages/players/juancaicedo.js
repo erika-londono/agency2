@@ -29,6 +29,14 @@ const JuanCaicedo = () => {
                 <div className="previousClubs">
                 <h2>Previous Clubs</h2>
                   <div className="club">
+                    <p>Värtans IK Herr A</p>
+                    <p>2024 Stockholm, Sweden</p>
+                    <p>
+                      • Div. 4 - Stockholm (1 goals in 7
+                      games)
+                    </p>
+                  </div>
+                  <div className="club">
                     <p>Kvarnsvedens IK Herr A</p>
                     <p>2023/2024 Borlänge, Sweden</p>
                     <p>
@@ -36,6 +44,7 @@ const JuanCaicedo = () => {
                       games)
                     </p>
                   </div>
+
                   <div className="club">
                     <p>Hammarby HTFF Herrfotboll</p>
                     <p>2022-2023 Stockholm, Sweden</p>
