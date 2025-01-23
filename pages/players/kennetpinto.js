@@ -31,13 +31,6 @@ const KennetPinto = () => {
               <p>(1 goals in 7 games)</p>
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
-
-                <div className="club">
-                  <p>Forjães Sport Club - AF Braga Pro-Nacional </p>
-                  <p>2024/2025 Braga, Portugal</p>
-                  <p>(1 goals in 7 games)</p>
-                </div>
-
                 <div className="club">
                   <p>Vitorino de Piães - Distrital 1 Division. </p>
                   <p>2024 Viana do Castelo, Portugal</p>
