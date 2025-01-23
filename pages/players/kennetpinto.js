@@ -29,6 +29,7 @@ const KennetPinto = () => {
               <p style={{ color: 'blue', fontWeight: 'bold' }}>Forjães Sport Club - AF Braga Pro-Nacional </p>
               <p>2024/2025 Braga, Portugal</p>
               <p>(1 goals in 7 games)</p>
+              <br />
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
                 <div className="club">
