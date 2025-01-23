@@ -26,7 +26,7 @@ const KennetPinto = () => {
             <div className="playerDetails">
               <h1>Kennet Tomas Pinto</h1>
               <p>Center Forward - Winger</p>
-              <p>Forjães Sport Club - AF Braga Pro-Nacional </p>
+              <p style={{ color: 'Blue' }}>Forjães Sport Club - AF Braga Pro-Nacional </p>
               <p>2024/2025 Braga, Portugal</p>
               <p>(1 goals in 7 games)</p>
               <div className="previous-clubs">
