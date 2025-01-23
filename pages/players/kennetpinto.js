@@ -30,13 +30,13 @@ const KennetPinto = () => {
                 <h2>Previous Clubs</h2>
 
                 <div className="club">
-                  <p>Forjães Sport Club - Distrital 1 Division. </p>
+                  <p>Forjães Sport Club - AF Braga Pro-Nacional </p>
                   <p>2024/2025 Braga, Portugal</p>
                   <p>(1 goals in 7 games)</p>
                 </div>
 
                 <div className="club">
-                  <p>VVitorino de Piães - Distrital 2 Division. </p>
+                  <p>Vitorino de Piães - Distrital 1 Division. </p>
                   <p>2024 Viana do Castelo, Portugal</p>
                   <p>(4 goals in 10 games)</p>
                 </div>
