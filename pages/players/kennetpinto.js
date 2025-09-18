@@ -24,7 +24,7 @@ const KennetPinto = () => {
               height={500}
             />
             <div className="playerDetails">
-              <h1>Kennet Tomas Pinto</h1>
+              <h1>Kennet Pinto</h1>
               <p>Center Forward - Winger</p>
               <p style={{ color: 'blue', fontWeight: 'bold' }}>Forjães Sport Club - AF Braga Pro-Nacional </p>
               <p>2024/2025 Braga, Portugal</p>
