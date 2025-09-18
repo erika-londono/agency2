@@ -1,5 +1,4 @@
 import React from "react";
-import ChatbotEmbed from "../ChatbotEmbed"; // Adjust the relative path if needed
 
 
 const AboutUsContent = () => {
@@ -63,8 +62,6 @@ const AboutUsContent = () => {
           </div>
         </div>
       </div>
-      {/* Chatbot Embed */}
-      <ChatbotEmbed />
     </>
   );
 };
