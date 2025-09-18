@@ -26,7 +26,7 @@ const KennetPinto = () => {
             <div className="playerDetails">
               <h1>Kennet Tomas Pinto</h1>
               <p>Center Forward - Winger</p>
-              <p style={{ color: 'Blue' }}>Forjães Sport Club - AF Braga Pro-Nacional </p>
+              <p>Forjaes Sport Club - AF Braga Pro-Nacional </p>
               <p>2024/2025 Braga, Portugal</p>
               <p>(1 goals in 7 games)</p>
               <div className="previous-clubs">
@@ -38,7 +38,7 @@ const KennetPinto = () => {
                 </div>
 
                 <div className="club">
-                  <p>Vitorino de Piães - Distrital 1 Division. </p>
+                  <p>Vitorino de Piaes - Distrital 1 Division. </p>
                   <p>2024 Viana do Castelo, Portugal</p>
                   <p>(4 goals in 10 games)</p>
                 </div>
