@@ -29,7 +29,6 @@ const KennetPinto = () => {
               <p style={{ color: 'blue', fontWeight: 'bold' }}>Ponte da Barca - Distrital 1 Division </p>
               <p>2025/2026 Braga, Portugal</p>
               <p>(0 goals in 2 games)</p>
-
               <div className="previous-clubs">
                 <h2>Previous Clubs</h2>
                 <div className="club">
